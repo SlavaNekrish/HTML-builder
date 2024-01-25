@@ -24,6 +24,5 @@ process.on('exit', (code) => {
 });
 
 process.on('SIGINT', () => {
-  console.log('Good luck, my friend!');
   process.exit();
 });
